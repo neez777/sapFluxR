@@ -1,6 +1,4 @@
-{
-  `path`: `/Users/neez/OneDrive/Uni/VLS550/R/sfm1x_workflow.mmd`,
-  `content`: `graph TD
+flowchart TD
     %% Step 1: Raw Data Processing
     A[Raw Temperature Files<br/>SFM1x Logger Data] --> B[Extract Raw Temperatures<br/>Needle Temperature Mode]
     B --> C[Process Raw Temperatures<br/>Apply Algorithm Choice]
@@ -46,7 +44,7 @@
     H4 --> H5{Zero Offset<br/>Acceptable?}
     H5 -->|±5 cm/h| I[Step 4: Wound Correction<br/>Vh cm/h corrected for spacing]
     H5 -->|±5-10 cm/h| H6[Treat with Caution<br/>Major misalignment]
-    H5 -->|>±10 cm/h| H7[Discard Data<br/>Uncorrectable misalignment]
+    H5 -->|\>±10 cm/h| H7[Discard Data<br/>Uncorrectable misalignment]
     H6 --> I
     
     %% Step 4: Wound Correction (Always Applied for SFM1x)
@@ -73,7 +71,7 @@
     M1 -->|< 10mm| M2[Single Outer Ring<br/>Qo = Aso*Vso]
     M1 -->|10-20mm| M3[Outer + Inner Rings<br/>Qo = Aso*Vso<br/>Qi = Asi*Vso/2]
     M1 -->|20-25mm| M4[Outer + Inner Rings<br/>Qo = Aso*Vso<br/>Qi = Asi*Vsi]
-    M1 -->|> 25mm| M5[Outer + Inner + Innermost<br/>Qo = Aso*Vso<br/>Qi = Asi*Vsi<br/>Qim = Asim*Vsi/2]
+    M1 -->|\> 25mm| M5[Outer + Inner + Innermost<br/>Qo = Aso*Vso<br/>Qi = Asi*Vsi<br/>Qim = Asim*Vsi/2]
     
     M2 --> N[Step 7: Total Sap Flux<br/>Qp cm³/h]
     M3 --> N
@@ -131,5 +129,4 @@
     class O,O1,O2,O3,O4 step8
     class P,P1,P2,P3,P4 step9
     class E,H5,M1 decision
-    class Q output`
-}
+    class Q output
