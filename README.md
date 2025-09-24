@@ -250,8 +250,8 @@ R -e "devtools::check()"
 If you use sapFluxR in your research, please cite:
 
 ```
-Your Name et al. (2024). sapFluxR: An R Package for Processing ICT SFM1x Sap Flow Data.
-R package version X.Y.Z. https://github.com/neez777/sapFluxR
+Joyce, G. W. (2025). sapFluxR: An R Package for Processing ICT SFM1x Sap Flow Data.
+R package version 0.1.0. https://github.com/neez777/sapFluxR
 ```
 
 ## License
@@ -266,7 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Authors**: Your Name, Contributors  
+**Authors**: Grant Joyce  
 **Maintainer**: Grant Joyce, neez1977@gmail.com
 **License**: GPL-3  
 **Version**: 0.1.0
