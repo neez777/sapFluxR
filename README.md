@@ -31,7 +31,7 @@ Install the development version from GitHub:
 ```r
 # Install from GitHub
 if (!require(devtools)) install.packages("devtools")
-devtools::install_github("yourusername/sapFluxR")
+devtools::install_github("neez777/sapFluxR")
 ```
 
 Once available on CRAN:
