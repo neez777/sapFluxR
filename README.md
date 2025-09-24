@@ -93,7 +93,7 @@ Tab-delimited or fixed-width formats from older ICT sensors (format-specific han
 | **HRMXa/b** | Modified HRM variants | Enhanced HRM accuracy | Burgess & Bleby (unpublished) |
 | **Tmax_Coh** | T-max Cohen method | High flows | Cohen et al. (1981) |
 | **Tmax_Klu** | T-max Kluitenberg method | High flows (adjusted) | Kluitenberg & Ham (2004) |
-| **DMA** | Dual Method Approach | Full range (automatic switching) | Combines HRM + T-max |
+| **DMA** | Dual Method Approach | Full range (automatic switching) | Forster (2020) |
 
 ## Workflow Example
 
