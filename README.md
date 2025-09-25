@@ -10,7 +10,7 @@
 
 ## Overview
 
-**sapFluxR** is a comprehensive R package for importing, processing, and analyzing sap flow data from ICT SFM1x sensors. It provides robust tools for handling multiple data formats, automatic format detection, data validation, and calculating heat pulse velocities using various established methods.
+**sapFluxR** is a comprehensive R package for importing, processing, and analysing sap flow data from ICT SFM1x sensors. It provides robust tools for handling multiple data formats, automatic format detection, data validation, and calculating heat pulse velocities using various established methods.
 
 ## Key Features
 
@@ -24,7 +24,7 @@
   - T-max methods (Cohen, Kluitenberg)
   - Dual Method Approach (DMA)
 - **Quality Control**: Automatic quality flagging and diagnostic tools
-- **Flexible Analysis**: Extensive utilities for filtering, summarizing, and exporting results
+- **Flexible Analysis**: Extensive utilities for filtering, summarising, and exporting results
 
 ## Installation
 
@@ -133,7 +133,7 @@ clean_results <- filter_velocity_results(
   velocity_range = c(-10, 200)
 )
 
-# 5. Analysis and visualization
+# 5. Analysis and visualisation
 stats_by_method <- calc_velocity_stats(clean_results, group_by = "method")
 plot_velocity_diagnostics(clean_results, "methods_comparison")
 
@@ -199,7 +199,7 @@ plot_velocity_diagnostics(vh_results, "histogram")
 
 ## Data Structure
 
-The package uses a standardized data structure:
+The package uses a standardised data structure:
 
 ```r
 # sap_data object structure
