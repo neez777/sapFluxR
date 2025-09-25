@@ -156,21 +156,7 @@ graph TD
   - `water_density`: Water density for mass calculations
 - **Returns**: Tree-level flux with scaling metadata
 
-### 9. Processing Pipeline Functions
-
-#### `process_sap_data(sap_data, methods = NULL, parameters = NULL, quality_control = TRUE, export_results = FALSE, output_file = NULL, verbose = TRUE)`
-- **Purpose**: Complete processing pipeline with automatic method selection
-- **Arguments**:
-  - `sap_data`: Data object to process
-  - `methods`: Specific methods to use
-  - `parameters`: Calculation parameters
-  - `quality_control`: Apply quality control
-  - `export_results`: Export results to file
-  - `output_file`: Output file path
-  - `verbose`: Print processing information
-- **Returns**: `sap_flow_results` object with comprehensive results
-
-### 10. Export and Reporting Functions
+### 9. Export and Reporting Functions
 
 #### `export_sap_data(sap_data, vh_results = NULL, file_path, format = NULL, include_metadata = TRUE, include_diagnostics = TRUE, include_quality_flags = TRUE, filter_options = NULL, compression = FALSE, overwrite = FALSE)`
 - **Purpose**: Export data to multiple formats
@@ -191,25 +177,6 @@ graph TD
 - `export_velocity_results()`: Export velocity results
 - `generate_analysis_report()`: Generate analysis reports
 - `create_diagnostic_summary()`: Create diagnostic summaries
-
-### 11. Utility Functions
-
-#### Data Processing Utilities:
-- `aggregate_velocity_temporal()`: Temporal aggregation
-- `filter_velocity_results()`: Filter results
-- `interpolate_missing_velocity()`: Interpolate missing data
-- `convert_velocity_units()`: Convert units
-
-#### Diagnostic Functions:
-- `plot_velocity_diagnostics()`: Diagnostic plots
-- `plot_hpv_timeseries()`: Time series plots
-- `plot_method_comparison()`: Method comparison plots
-- `diagnose_sensor_performance()`: Sensor diagnostics
-
-#### Statistical Functions:
-- `calc_velocity_stats()`: Calculate statistics
-- `compare_hpv_methods()`: Compare methods
-- `calc_enhanced_statistics()`: Enhanced statistics
 
 ## Data Flow Pseudocode
 
@@ -363,3 +330,4 @@ The package includes comprehensive error handling:
 - **Optional**: ggplot2, plotly, patchwork, scales (for plotting)
 - **Testing**: testthat
 - **Documentation**: knitr, rmarkdown
+
