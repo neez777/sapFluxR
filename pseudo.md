@@ -1,7 +1,7 @@
 # sapFluxR Package Flowchart and Pseudocode
 
 ## Package Overview
-**sapFluxR** is a comprehensive R package for processing and analyzing sap flow data from ICT SFM1x heat pulse velocity sensors. The package provides a complete pipeline from raw temperature measurements to tree-level sap flux calculations.
+**sapFluxR** is a comprehensive R package for processing and analysing sap flow data from ICT SFM1x heat pulse velocity sensors. The package provides a complete pipeline from raw temperature measurements to tree-level sap flux calculations.
 
 ## Main Workflow Flowchart
 
@@ -44,10 +44,10 @@ graph TD
 - **Returns**: `sap_data` object with diagnostics, measurements, metadata, validation
 
 #### Supporting Import Functions:
-- `detect_format_robust(file_path)`: Auto-detect data format
-- `read_ict_current_robust()`: Parse current ICT JSON format
-- `read_ict_legacy_robust()`: Parse legacy ICT format
-- `read_csv_format_robust()`: Parse CSV/tab-delimited format
+- `detect_format(file_path)`: Auto-detect data format
+- `read_ict_current()`: Parse current ICT JSON format
+- `read_ict_legacy()`: Parse legacy ICT format
+- `read_csv_format()`: Parse CSV/tab-delimited format
 
 ### 2. Data Validation Functions
 
@@ -71,7 +71,7 @@ graph TD
 #### `detect_probe_config(sap_data)`
 - **Purpose**: Detect probe configuration from data
 - **Arguments**:
-  - `sap_data`: Data object to analyze
+  - `sap_data`: Data object to analyse
 - **Returns**: Probe configuration object with compatible methods
 
 #### `ProbeConfiguration` R6 Class
