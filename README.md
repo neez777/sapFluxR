@@ -1,5 +1,7 @@
 # sapFluxR
 
+## Do not install yet, under development.
+
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/neez777/sapFluxR/workflows/R-CMD-check/badge.svg)](https://github.com/neez777/sapFluxR/actions)
 [![Codecov test coverage](https://codecov.io/gh/neez777/sapFluxR/branch/main/graph/badge.svg)](https://codecov.io/gh/neez777/sapFluxR?branch=main)
