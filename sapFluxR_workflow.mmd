@@ -85,7 +85,7 @@ flowchart TD
     N1 --> O[Step 8: Mean SFD<br/>Sapwood-area-weighted]
     O --> O1[Calculate Qps<br/>Qps = Qp/As cm³/h/cm²]
     O1 --> O2[Total Sapwood Area<br/>As = Ao + Ai + Aim]
-    O --> O3[Optional: Normalize<br/>Qpsn = Qps/Qps_max]
+    O --> O3[Optional: Normalise<br/>Qpsn = Qps/Qps_max]
     O --> O4[Optional: Per Leaf Area<br/>Qpl = Qp/Al cm³/h/m²]
     
     %% Step 9: Daily Totals
@@ -98,7 +98,7 @@ flowchart TD
     P --> P2[Daily Total Sap Flux<br/>Qp cm³/day or L/day]
     P1 --> P3[For half-hourly data<br/>Sum 48 measurements ÷ 2]
     P2 --> P3
-    P --> P4[Optional: Daily Normalization<br/>Relative to period maximum]
+    P --> P4[Optional: Daily Normalisation<br/>Relative to period maximum]
 
     %% Final Output
     P1 --> Q[Final Output<br/>Processed Sap Flow Data]
