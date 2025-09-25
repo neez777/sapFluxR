@@ -1,6 +1,6 @@
 # sapFluxR User Inputs Guide
 
-This document provides a comprehensive guide to all user inputs required for the sapFluxR package, organized by category and function.
+This document provides a comprehensive guide to all user inputs required for the sapFluxR package, organised by category and function.
 
 ## Table of Contents
 
@@ -241,4 +241,5 @@ Choose one of the following:
 
 ### Default Values
 The package provides sensible defaults for most parameters, but users should provide species-specific values for wood properties and thermal diffusivity for best results.
+
 
